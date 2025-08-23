@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "81057890db0fea1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5747f37eeadcdaff",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250822082529.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250822082529"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "effedbd0bb2f1deb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "39c5756aa6b5a337",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "c772736d8d457388",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "d2b7af57e5d7a6e6",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "4be18bc5b2f6481e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "1dad741080d283d2",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "49db6623b4fee899",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "36e58d1fcca688c6",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "2-Projects/OWL/Backend/Server DB.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "793f770265875f32",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "3-BOOKS.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "665aaecc77fbe2cb",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "3-BOOKS.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "1d34d36a225542fb",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "calendar"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "iconic:Open rulebook": false,
+      "omnisearch:Omnisearch": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "5747f37eeadcdaff",
+  "lastOpenFiles": [
+    "3-Resources/Education/Math/Theory/Derivative of a function/Знак производной.md",
+    "0-Home/0-HOME.md",
+    "3-Resources/Dev/Python/Modules/frozenset.md",
+    "3-Resources/Messages/IPSA piar.md",
+    "7-Inbox/Формулы для ЕГЭ - Математика.md",
+    "3-Resources/Education/Math/Trigonometry/Тригонометрические формулы.md",
+    "3-Resources/Education/Math/Логарифмы/Основные свойства логарифмов.md",
+    "3-Resources/Books/Мифы Ктулху.md",
+    "0-Home/2-BOOKS.md",
+    "3-Resources/Education/ComputerScience/EGE/Задача 2/Пример решения 1.md",
+    "0-Home/4-TASKS.md",
+    "0-Home/3-FREELANCE.md",
+    "1-Daily/23.04.2025.md",
+    "Правовая база.md",
+    "3-Resources/Education/ComputerScience/EGE/Задача 2/Пример решения 2.md",
+    "3-Resources/Education/ComputerScience/EGE/Задача 2/Задача 2.md",
+    "3-Resources/Education/ComputerScience/EGE/Задание 4/Решение 6.md",
+    "3-Resources/Education/ComputerScience/EGE/Задание 24/Пример решения 2.md",
+    "3-Resources/Education/ComputerScience/EGE/Задание 24/Пример решения 4.md",
+    "3-Resources/Education/ComputerScience/EGE/Задание 24/Пример решения 6.md",
+    "3-Resources/Education/ComputerScience/EGE/Задача 1/Пример решения 3.md",
+    "3-Resources/Education/ComputerScience/EGE/Задача 1/Пример решения 2.md",
+    "3-Resources/Dev/Автоматическая синхронизация vs синхронизация по кнопке.md",
+    "2-Projects/OWL/Backend/Backend documentation.md",
+    "Pasted image 20250416140008.png",
+    "Books/Тень над Инсмутом.md",
+    "Olympics/Высший пилотаж 2025 НСК/Текст для презентации проекта.md",
+    "imgs/gifgdsfgsd.gif",
+    "imgs/Pasted image 20250406133327.png",
+    "imgs/8Bit _ Pixel _ Spring.gif",
+    "imgs/121.gif",
+    "Education/Literature/Хребты безумия.pptx",
+    "Education/Literature/Хребты безумия 1.pptx",
+    "obsidian-banner-2.png",
+    "imgs/Pasted image 20240529201026.png",
+    "imgs/header.png",
+    "🧭 Projects/TGSB"
+  ]
+}

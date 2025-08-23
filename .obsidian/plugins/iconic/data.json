@@ -1,0 +1,151 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "0-Home": {
+      "icon": "lucide-home",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "1-Daily": {
+      "icon": "lucide-calendar-days",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "2-Projects": {
+      "icon": "lucide-git-fork",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources": {
+      "icon": "lucide-files",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Books": {
+      "icon": "lucide-book",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Dev": {
+      "icon": "lucide-code-xml",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Education": {
+      "icon": "lucide-test-tube-diagonal",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Messages": {
+      "icon": "lucide-message-circle",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Olympics": {
+      "icon": "lucide-coffee",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Pentesting": {
+      "icon": "lucide-laptop",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "3-Resources/Templates": {
+      "icon": "lucide-book-template",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "4-Archive": {
+      "icon": "lucide-archive",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "5-Documents": {
+      "icon": "lucide-file-text",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "6-Freelance": {
+      "icon": "lucide-id-card",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "7-Inbox": {
+      "icon": "lucide-inbox",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "8-DB": {
+      "icon": "lucide-database",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    },
+    "imgs": {
+      "icon": "lucide-image",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "740b461244ca328c"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}

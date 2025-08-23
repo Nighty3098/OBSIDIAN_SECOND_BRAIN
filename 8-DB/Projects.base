@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.hasTag("project")
+        - '!file.inFolder("3-Resources/Templates")'
+    order:
+      - file.name
+      - created_at
+      - link
+    cardSize: 300

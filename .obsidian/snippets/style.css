@@ -1,0 +1,27 @@
+img {
+  border-radius: 5px;
+}
+
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header {
+  color: var(--interactive-accent);
+  font-style: italic;
+}
+
+.status-bar {
+  display: none;
+}
+
+.view-header-title-container {
+  opacity: 0;
+}
+
+.metadata-properties-heading {
+  display: none;
+}
+
+.metadata-add-button .text-button-label {
+  display: none;
+}

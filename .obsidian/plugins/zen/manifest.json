@@ -1,0 +1,11 @@
+{
+	"id": "zen",
+	"name": "Zen",
+	"version": "0.6.5",
+	"minAppVersion": "1.1.0",
+	"fundingUrl": "https://github.com/sponsors/Maxymillion",
+	"description": "A focus mode Obsidian plugin.",
+	"author": "Maxymillion",
+	"authorUrl": "https://github.com/Maxymillion",
+	"isDesktopOnly": true
+}

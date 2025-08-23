@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.hasTag("Freelance")
+        - '!file.inFolder("3-Resources/Templates")'
+    order:
+      - file.name
+      - date
+      - price
+      - completed

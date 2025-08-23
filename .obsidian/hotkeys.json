@@ -1,0 +1,38 @@
+{
+  "dashboard-navigator:dashboard": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "theme:switch": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
+}

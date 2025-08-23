@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playpen+Sans:wght@100..800&family=Playwrite+CU:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Neonderthaw&family=Warnes&family=WindSong:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&family=Rubik+Glitch&family=Tsukimi+Rounded&display=swap");
+
+* {
+  border: none;
+}
+
+.books .inline-title {
+  display: none;
+}
+
+.books .metadata-properties-heading {
+  display: none;
+}
+
+.books .metadata-content {
+  display: none;
+}
+
+.launchpad .inline-title {
+  display: none;
+}
+
+.launchpad .metadata-properties-heading {
+  display: none;
+}
+
+.launchpad .metadata-content {
+  display: none;
+}
+
+.launchpad * {
+  border: none;
+}
+
+.launchpad .dataview-error-message {
+  display: none;
+}
+
+.launchpad .table-view-tr-header {
+  display: none;
+}
+
+.launchpad .table-view-tbody {
+  background-color: transparent;
+}
+
+.nav-buttons-container {
+  display: none;
+}
+
+.launchpad .table-view-thead {
+  background-color: transparent;
+}
+
+.launchpad .dataview {
+  background-color: transparent;
+}
+
+.workspace-tab-container {
+  border-radius: 20px;
+}
+
+.view-header {
+  display: none;
+}
+
+.tasks .inline-title {
+  display: none;
+}
+
+.tasks .metadata-properties-heading {
+  display: none;
+}
+
+.tasks .metadata-content {
+  display: none;
+}
+
+.projects .inline-title {
+  display: none;
+}
+
+.projects .metadata-properties-heading {
+  display: none;
+}
+
+.projects .metadata-content {
+  display: none;
+}
+
+.launchpad .main_header_2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Nova Mono", system-ui;
+  color: var(--text-accent);
+}
+
+.daily img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 40px;
+}
+
+.tasks .callout {
+  display: block;
+  margin: auto auto;
+  background-color: var(--background-primary-alt);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.tasks .callout-title * {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Nova Mono", system-ui;
+  color: var(--text-accent);
+}
+
+.tasks .contains-task-list .task-list-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.tasks .note_2 {
+  display: block;
+  margin: auto auto;
+  background-color: var(--background-primary-alt);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.tasks .note_2 .note {
+  align-content: left;
+  text-align: left;
+  font-size: xx-large;
+  font-family: "Nova Mono", monospace;
+  color: var(--text-accent);
+}
+
+.tasks .note_2 .author {
+  align-content: right;
+  text-align: right;
+  font-size: medium;
+  font-family: "Nova Mono", monospace;
+  color: var(--text-normal);
+}
+
+.tasks img {
+  width: 100%;
+  max-width: 1200px;
+}
+
+a.tag {
+  font-family: "Formular", var(--font-text);
+  display: flex;
+  padding: 7px 7px 7px 7px;
+  margin: -5px 10px -5px 10px;
+  justify-content: space-between;
+}
+
+.bases-cards-item {
+  font-family: "Formular", var(--font-text);
+  display: flex;
+  padding: 7px 7px 7px 7px;
+  margin: -5px 10px -5px 10px;
+  background-color: var(--background-primary-alt);
+  border: none;
+  box-shadow: none;
+}
+
+.bases-cards-container {
+  padding-top: 3px;
+}
+
+.launchpad .bases-cards-label {
+  opacity: 0;
+  height: 10px;
+}
+
+.launchpad .callout {
+  align-items: center;
+  align-content: center;
+  background-color: var(--background-primary-alt);
+  border: none;
+  width: 100%;
+}
+
+.launchpad .callout-title {
+  display: none;
+}
+
+.launchpad .callout-content {
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.view-content {
+  z-index: 0;
+}
+
+.launchpad .inline-title {
+  display: none;
+  height: 0px;
+}
+
+.launchpad .view-header {
+  display: none;
+}
+
+.launchpad .block-language-dataviewjs {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  overflow: hidden;
+  background-color: var(--font-text);
+}
+
+.widget {
+  height: 100px;
+  width: auto;
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.callout {
+  border-radius: 20px;
+  border: none;
+}
+
+.widget h1 {
+  font-size: medium;
+  padding: 0px;
+  margin: 0px;
+}
+
+.launchpad .columnParent .block-language-col-md .block-language-dataviewjs {
+  padding: 4px;
+  margin: 0px;
+}
+
+.launchpad .columnParent {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.block-language-col .columnParent {
+  gap: 10px;
+}
+
+.launchpad .columnParent .columnChild {
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.launchpad .columnParent img {
+  max-width: 1000px;
+}
+
+.launchpad .internal-embed img {
+  max-width: 1000px;
+}
+
+.launchpad .calendar {
+  max-width: 1000px;
+  width: 90%;
+}
+
+.projects .columnParent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: start;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.projects .columnParent img {
+  width: 200px;
+  aspect-ratio: 1/1;
+}
+
+.projects .columnParent .columnChild {
+  display: flex;
+  flex-direction: start;
+  width: 100%;
+  min-height: 90vh;
+  max-height: 100%;
+  justify-content: flex-start;
+  margin-top: 0px;
+  max-width: 250px;
+  min-width: 100px;
+}
+
+.launchpad img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 30px;
+}
+
+.launchpad .tag {
+  width: auto;
+  padding: auto;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: var(--background-primary-alt);
+  color: var(--text-normal);
+  text-transform: uppercase;
+  font-size: medium;
+  border: none;
+}
+
+.launchpad .tag:hover {
+  text-decoration: none;
+}
+
+.launchpad .dataview-container {
+  max-width: 1000px;
+}
+
+.launchpad .task-list-item {
+  border: none;
+  height: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.launchpad .task-list-item:hover {
+  background-color: transparent;
+}
+
+.freelance img {
+  border-radius: 30px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.freelance .widget {
+  width: 100%;
+  max-width: 700px;
+}
+
+.freelance {
+  align-content: center;
+  text-align: center;
+}
+
+.projects img {
+  border-radius: 30%;
+  border: none;
+  max-width: 200px;
+}
+
+.projects a.tag {
+  width: auto;
+  padding: auto;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-size: small;
+  color: var(--text-normal);
+  background-color: var(--background-primary-alt);
+  transition: all 0.5s ease-in-out;
+}
+
+.projects a.tag:hover {
+  color: var(--text-error);
+  background-color: var(--background-secondary);
+}
+
+.styled-date {
+  height: 60px;
+  width: auto;
+  background-color: var(--background-primary-alt);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.books {
+  text-align: center;
+}
+
+.books img {
+  height: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  border-radius: 30px;
+}
+
+.books .table-view-thead {
+  display: none;
+  border: none;
+}
+
+.books .table-view-tbody tr td span {
+  width: 100%;
+}
+
+.books .dataview table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-cover {
+  width: 250px;
+}
+
+.books .dataview * {
+  outline: none;
+  text-decoration: none;
+  color: var(--text-normal);
+  font-size: medium;
+}
+
+.books .dataview th,
+.dataview td {
+  padding: 10px;
+  text-align: left;
+}
+
+.books progress {
+  height: 15px;
+  min-height: 15px;
+  border-radius: 15px;
+}
+
+.launchpad .callout {
+  font-size: medium;
+  border-radius: 20px;
+  width: 100%;
+  line-height: 1.5rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.launchpad .view-content {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.launchpad h2 {
+  text-align: center;
+}

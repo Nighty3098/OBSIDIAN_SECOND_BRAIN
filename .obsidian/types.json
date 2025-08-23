@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "date": "date",
+    "is_readed": "checkbox",
+    "sd": "number",
+    "deadline": "date",
+    "price": "number",
+    "completed": "checkbox",
+    "created_at": "date"
+  }
+}

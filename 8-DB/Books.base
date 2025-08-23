@@ -1,0 +1,18 @@
+views:
+  - type: cards
+    name: Books
+    filters:
+      and:
+        - file.hasTag("book")
+        - '!file.inFolder("3-Resources/Templates")'
+    order:
+      - file.name
+      - link
+      - author
+      - rating
+      - progress
+    sort:
+      - property: progress
+        direction: ASC
+    cardSize: 350
+    imageAspectRatio: 1.45

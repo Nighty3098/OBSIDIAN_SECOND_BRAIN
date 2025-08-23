@@ -1,0 +1,33 @@
+{
+  "accentColor": "#757575",
+  "cssTheme": "Baseline",
+  "interfaceFontFamily": "SF Pro Rounded",
+  "textFontFamily": "Courier New,Cartograph CF,Iosevka NF",
+  "monospaceFontFamily": "Source Code Pro",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "banner",
+    "command_pallete",
+    "checkbox",
+    "list_styling",
+    "S - Callouts",
+    "S - Encoded Fonts",
+    "S - Embed Adjustments",
+    "S - Dataview Cards",
+    "S - Encoded Icons",
+    "S - External Link Icons",
+    "S - Folder Styles Rewritten",
+    "S - Images Adjustments",
+    "S - Checkboxes",
+    "base_header",
+    "file_explorer",
+    "launchpad",
+    "rounded_table",
+    "style"
+  ],
+  "nativeMenus": false,
+  "theme": "system",
+  "showRibbon": false,
+  "showViewHeader": true
+}

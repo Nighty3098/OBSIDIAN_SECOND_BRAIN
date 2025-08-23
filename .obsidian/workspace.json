@@ -1,0 +1,334 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bee05052af06c512",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Home/0-HOME.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "0-HOME"
+            }
+          },
+          {
+            "id": "1b1fe069382328b0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Home/1-TASKS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "1-TASKS"
+            }
+          },
+          {
+            "id": "79a22627a61b1614",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Home/2-BOOKS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2-BOOKS"
+            }
+          },
+          {
+            "id": "a2af4435a26e5375",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Home/3-FREELANCE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "3-FREELANCE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b63c12c3bb06c80",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cdeba3478db6085",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed15b78cf26db7db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "69b529276bcdbe1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Russian",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "08969c3ab72e1d6c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d06bb6fa8ce92c32",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "com.maxymillion.zen",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-ghost",
+              "title": "com.maxymillion.zen"
+            }
+          },
+          {
+            "id": "1145c434bbb84d25",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "com.maxymillion.zen",
+              "state": {},
+              "pinned": true,
+              "icon": "eye",
+              "title": "Zen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c3afcab963e39ab3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a36ea1a514a5c682",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0b7bbbe68977914",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3-Resources/Education/Math/Trigonometry/Тригонометрические формулы.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Тригонометрические формулы"
+            }
+          },
+          {
+            "id": "37dcb43a808c036b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3-Resources/Pentesting/Metasploit/Обход антивирусов в Windows 10 с помощью загрузки Meterpreter прямо из памяти.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Обход антивирусов в Windows 10 с помощью загрузки Meterpreter прямо из памяти"
+            }
+          },
+          {
+            "id": "274cfda97d8fd7ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "66749578f6b9290f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fda75bb671173b25",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "7-Inbox/Ссылки на ноутбуки.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Ссылки на ноутбуки"
+            }
+          },
+          {
+            "id": "e437cf44b2da8716",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7-Inbox/Ссылки на ноутбуки.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ссылки на ноутбуки"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": true,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": true,
+      "workspaces:Manage workspace layouts": true,
+      "obsidian-kanban:Create new board": false,
+      "iconic:Open rulebook": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "bee05052af06c512",
+  "lastOpenFiles": [
+    "0-Home/3-FREELANCE.md",
+    "3-Resources/Templates/Daily note.md",
+    "8-DB/Books-Minimal.base",
+    "8-DB/Books.base",
+    "0-Home/0-HOME.md",
+    "0-Home/1-TASKS.md",
+    "0-Home/2-BOOKS.md",
+    "imgs/411.png",
+    "3-Resources/Templates/Project.md",
+    "1-Daily/02.04.2025.md",
+    "imgs/@mejwh · mejwh.gif",
+    "6-Freelance/Cource work.md",
+    "3-Resources/Templates/Outline.md",
+    "3-Resources/Templates/Freelance.md",
+    "3-Resources/Templates/Book.md",
+    "3-Resources/Templates/Assignment.md",
+    "7-Inbox/Ссылки на ноутбуки.md",
+    "3-Resources/Messages/IPSA piar.md",
+    "3-Resources/Books/35 кило надежды.md",
+    "5-Documents/Wireshark User's Guide.pdf",
+    "6-Freelance/Fix and setup TG bot.md",
+    "3-Resources/Books/Зов Ктулху.md",
+    "{{picture}}.md",
+    "0-Home/1-FINANCES.md",
+    "3-Resources/Books/Четвёртая высота.md",
+    "3-Resources/Books/Человек, который смеётся.md",
+    "3-Resources/Books/Цветы для Элджернона.md",
+    "3-Resources/Books/Хребты безумия.md",
+    "3-Resources/Books/Ужас Данвича.md",
+    "3-Resources/Books/Трое в лодке, не считая собаки.md",
+    "DB/BookReaded.base",
+    "8-DB/Projects.base",
+    "8-DB/Freelance.base",
+    "4-Archive/OLD_CATEGORIES",
+    "5-Documents/Рэй Брэдбери – 451 градус по Фаренгейту.pdf",
+    "imgs/Pasted image 20250822212652.png",
+    "imgs/Pasted image 20250822212611.png",
+    "imgs/Pasted image 20250822212533.png",
+    "imgs/Pasted image 20250822212510.png",
+    "imgs/Pasted image 20250822212458.png",
+    "imgs/Pasted image 20250822212428.png",
+    "imgs/Pasted image 20250822082551.png",
+    "imgs/Pasted image 20250822082543.png",
+    "DB/Tags.base",
+    "DB/Tasks.base",
+    "2-Projects/Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Без названия.canvas"
+  ]
+}
