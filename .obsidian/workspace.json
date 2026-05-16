@@ -14,64 +14,65 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/0-HOME.md",
+                "file": "0-Home/HOME.md",
                 "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "0-HOME"
+              "title": "HOME"
             }
           },
           {
-            "id": "1b1fe069382328b0",
+            "id": "6aa49e772b24d91a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/1-TASKS.md",
-                "mode": "preview",
+                "file": "0-Home/TASKS.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "1-TASKS"
+              "title": "TASKS"
             }
           },
           {
-            "id": "79a22627a61b1614",
+            "id": "b139e1b28627ed69",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/2-BOOKS.md",
+                "file": "0-Home/BOOKS.md",
                 "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2-BOOKS"
+              "title": "BOOKS"
             }
           },
           {
-            "id": "a2af4435a26e5375",
+            "id": "5db92b3d5656b144",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/3-FREELANCE.md",
+                "file": "0-Home/DAILY.md",
                 "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "3-FREELANCE"
+              "title": "DAILY"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,12 +99,12 @@
             }
           },
           {
-            "id": "69b529276bcdbe1c",
+            "id": "b7e81cb5791acd17",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Russian",
+                "query": "tag:TheoryOfElectricalCircuits",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,47 +114,12 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "08969c3ab72e1d6c",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "d06bb6fa8ce92c32",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "com.maxymillion.zen",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-ghost",
-              "title": "com.maxymillion.zen"
-            }
-          },
-          {
-            "id": "1145c434bbb84d25",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "com.maxymillion.zen",
-              "state": {},
-              "pinned": true,
-              "icon": "eye",
-              "title": "Zen"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 314.5066738128662
   },
   "right": {
     "id": "c3afcab963e39ab3",
@@ -188,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Pentesting/Metasploit/Обход антивирусов в Windows 10 с помощью загрузки Meterpreter прямо из памяти.md",
+                "file": "0-Home/0-HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Обход антивирусов в Windows 10 с помощью загрузки Meterpreter прямо из памяти"
+              "title": "Outgoing links from 0-HOME"
             }
           },
           {
@@ -212,7 +178,22 @@
             }
           },
           {
-            "id": "66749578f6b9290f",
+            "id": "e437cf44b2da8716",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3-Resources/Pentesting/Metasploit/Meterpreter.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Meterpreter"
+            }
+          },
+          {
+            "id": "5007af51f2eff754",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -226,30 +207,15 @@
             }
           },
           {
-            "id": "fda75bb671173b25",
+            "id": "8f63f92a5363a4d5",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "7-Inbox/Ссылки на ноутбуки.md"
+                "file": "0-Home/HOME.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Ссылки на ноутбуки"
-            }
-          },
-          {
-            "id": "e437cf44b2da8716",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "7-Inbox/Ссылки на ноутбуки.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Ссылки на ноутбуки"
+              "title": "File properties for HOME"
             }
           }
         ],
@@ -257,7 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
+    "width": 330.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -265,8 +231,6 @@
       "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": true,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": false,
@@ -274,58 +238,57 @@
       "workspaces:Manage workspace layouts": true,
       "obsidian-kanban:Create new board": false,
       "iconic:Open rulebook": false,
-      "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bee05052af06c512",
+  "active": "5db92b3d5656b144",
   "lastOpenFiles": [
-    "7.png",
-    "Pasted image.png",
-    "6.png",
-    "5.png",
-    "4.png",
-    "3.png",
-    "1.png",
-    "2.png",
-    "home.png",
-    "0-Home/2-BOOKS.md",
-    "0-Home/0-HOME.md",
-    "0-Home/3-FREELANCE.md",
-    "3-Resources/Templates/Daily note.md",
-    "8-DB/Books-Minimal.base",
-    "8-DB/Books.base",
-    "0-Home/1-TASKS.md",
-    "imgs/411.png",
-    "3-Resources/Templates/Project.md",
-    "1-Daily/02.04.2025.md",
-    "imgs/@mejwh · mejwh.gif",
-    "6-Freelance/Cource work.md",
-    "3-Resources/Templates/Outline.md",
-    "3-Resources/Templates/Freelance.md",
-    "3-Resources/Templates/Book.md",
-    "3-Resources/Templates/Assignment.md",
-    "7-Inbox/Ссылки на ноутбуки.md",
-    "3-Resources/Messages/IPSA piar.md",
-    "3-Resources/Books/35 кило надежды.md",
-    "5-Documents/Wireshark User's Guide.pdf",
-    "6-Freelance/Fix and setup TG bot.md",
-    "3-Resources/Books/Зов Ктулху.md",
-    "{{picture}}.md",
-    "0-Home/1-FINANCES.md",
-    "3-Resources/Books/Четвёртая высота.md",
-    "3-Resources/Books/Человек, который смеётся.md",
-    "3-Resources/Books/Цветы для Элджернона.md",
-    "3-Resources/Books/Хребты безумия.md",
-    "3-Resources/Books/Ужас Данвича.md",
-    "3-Resources/Books/Трое в лодке, не считая собаки.md",
-    "DB/BookReaded.base",
-    "8-DB/Projects.base",
-    "8-DB/Freelance.base",
-    "4-Archive/OLD_CATEGORIES",
-    "5-Documents/Рэй Брэдбери – 451 градус по Фаренгейту.pdf",
-    "DB/Tags.base",
-    "DB/Tasks.base",
+    "README.md.md",
+    "0-Home/HOME.md",
+    "0-Home/DAILY.md",
+    "0-Home/BOOKS.md",
+    "0-Home/TASKS.md",
+    "0-Home/HOME.md~",
+    "3-Resources/Dev/С++/SFML/Рендер окна.md",
+    "3-Resources/Dev/С++/Флаги компиляции/Флаги компиляции - детекция ошибок.md",
+    "3-Resources/Prompts/Deepseek uncens.md",
+    "3-Resources/Dev/С++/Флаги компиляции",
+    "3-Resources/Dev/С++/Флаги компиляции/Флаги компиляции - оптимизация - скорость работы.md",
+    "9-UNIVERSITY/Math/Интерактивный курс/Собственные значения и собственные векторы/Собственные значения и собственные векторы.md",
+    "9-UNIVERSITY/Math/Интерактивный курс/Собственные значения и собственные векторы/Тест.md",
+    "9-UNIVERSITY/Math/Комплексные числа/Комплексные числа - введение.md",
+    "9-UNIVERSITY/Math/Интерактивный курс/Собственные значения и собственные векторы",
+    "9-UNIVERSITY/Math/Интерактивный курс/Разложение вектора по базису/Тест.md",
+    "9-UNIVERSITY/Math/Интерактивный курс/Разложение вектора по базису/Лекция.md",
+    "9-UNIVERSITY/History/Основные положения теории Данилевского.md",
+    "9-UNIVERSITY/Math/Интерактивный курс/Разложение вектора по базису",
+    "9-UNIVERSITY/Math/Интерактивный курс",
+    "9-UNIVERSITY/History/Доклады",
+    "9-UNIVERSITY/History/Лекции",
+    "9-UNIVERSITY/Math/Лекции 2 семестр 1 курс.md",
+    "9-UNIVERSITY/Math/Лекции/лекция_12 Степенные ряды. Разложение в ряд Тейлораъpptx.pdf",
+    "9-UNIVERSITY/Math/Лекции/лекция_11 Знакочередующиеся ряды. Функциональные и степенные ряды.pdf",
+    "3-Resources/Prompts/Undetect.md",
+    "3-Resources/Dev/DevOps/Scripts/git - gitea - codeberg sync script.md",
+    "3-Resources/Dev/DevOps/Scripts",
+    "1-Daily/03.05.2026.md",
+    "3-Resources/Dev/С++/Бинарные операции/Побитовые операции в C++.md",
+    "3-Resources/Dev/С++/Бинарные операции/Побитовые операции. Примеры кода.md",
+    "3-Resources/Dev/С++/Хэш/Хеш-функции в C++.md",
+    "3-Resources/Dev/С++/Хэш/HashMap.md",
+    "3-Resources/Dev/С++/Бинарное дерево/Двоичное дерево поиска.md",
+    "3-Resources/Dev/С++/parallel processing.md",
+    "3-Resources/Dev/С++/Getting user information via GitAPI.md",
+    "imgs/3.png",
+    "imgs/2.png",
+    "imgs/1.png",
+    "3-Resources/CTF/NSK-CTF-2026/stego/puzzle/src/lab_x.jpg",
+    "3-Resources/CTF/NSK-CTF-2026/stego/Selfie/src/селфи.png",
+    "3-Resources/CTF/NSK-CTF-2026/stego/Selfie/src/sstv-decoded.png",
+    "3-Resources/CTF/NSK-CTF-2026/stego/Selfie/public/селфи.png.jpg.jpeg.svg.bmp",
+    "3-Resources/CTF/NSK-CTF-2026/stego/Carpet/public/Suspicious carpet.png",
+    "3-Resources/CTF/NSK-CTF-2026/stego/Carpet/public/Suspicious carpet.jpg",
+    "3-Resources/CTF/NSK-CTF-2026/reverse/beta-testing/images/store_mem_as_global_var_devtools.png",
     "2-Projects/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

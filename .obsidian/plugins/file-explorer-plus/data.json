@@ -17,6 +17,13 @@
         "type": "FILES_AND_DIRECTORIES",
         "pattern": "",
         "patternType": "WILDCARD"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "0-Home/HOME.md",
+        "patternType": "STRICT"
       }
     ]
   },

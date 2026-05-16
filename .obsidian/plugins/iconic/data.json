@@ -4,6 +4,13 @@
   "showAllFileIcons": false,
   "showAllFolderIcons": false,
   "minimalFolderIcons": false,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": false,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
   "showItemName": "desktop",
   "biggerSearchResults": "mobile",
   "maxSearchResults": 50,
@@ -19,126 +26,595 @@
     "emojiMode": false,
     "rulePage": "file"
   },
-  "appIcons": {},
+  "appIcons": {
+    "sidebarLeft": {
+      "icon": "lucide-folder"
+    },
+    "sidebarRight": {
+      "icon": "lucide-panel-right-close"
+    }
+  },
   "tabIcons": {},
   "fileIcons": {
     "0-Home": {
       "icon": "lucide-home",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
+    },
+    "0-Home/BOOKS.md": {
+      "icon": "lucide-book"
+    },
+    "0-Home/DAILY.md": {
+      "icon": "lucide-sun"
+    },
+    "0-Home/FREELANCE.md": {
+      "icon": "lucide-dollar-sign"
+    },
+    "0-Home/HABITS.md": {
+      "icon": "lucide-calendar-days"
+    },
+    "0-Home/HOME.md": {
+      "icon": "lucide-home"
+    },
+    "0-Home/TASKS.md": {
+      "icon": "lucide-check-circle"
     },
     "1-Daily": {
       "icon": "lucide-calendar-days",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "1-Daily/HABITS": {
+      "icon": "check-small",
+      "unsynced": [
+        "30db26fcb28f0707",
+        "339a860933040240",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "2-Projects": {
       "icon": "lucide-git-fork",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "2-Projects/Crimson": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "e176939e692fd64e",
+        "339a860933040240",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "2-Projects/GhostlyGrabber": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "2-Projects/IPSA": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "2-Projects/IPSA/bugs": {
+      "icon": "lucide-bug",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "2-Projects/OWL": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "2-Projects/SEARCH": {
+      "icon": "lucide-gamepad-2",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources": {
       "icon": "lucide-files",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources/Books": {
       "icon": "lucide-book",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "3-Resources/Books/Book Analysis": {
+      "icon": "lucide-bookmark",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "3-Resources/CTF": {
+      "icon": "lucide-flag",
+      "unsynced": [
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "3-Resources/Cases": {
+      "icon": "lucide-briefcase-business",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources/Dev": {
       "icon": "lucide-code-xml",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources/Education": {
       "icon": "lucide-test-tube-diagonal",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources/Messages": {
       "icon": "lucide-message-circle",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "3-Resources/OSINT": {
+      "icon": "lucide-user-search",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources/Olympics": {
       "icon": "lucide-coffee",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "3-Resources/Pentesting": {
       "icon": "lucide-laptop",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "3-Resources/Prompts": {
+      "icon": "lucide-message-circle",
+      "unsynced": [
+        "035963c893b9a904",
+        "981790bab6f197bb"
       ]
     },
     "3-Resources/Templates": {
       "icon": "lucide-book-template",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "4-Archive": {
       "icon": "lucide-archive",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "5-Documents": {
       "icon": "lucide-file-text",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "6-Freelance": {
       "icon": "lucide-id-card",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "7-Inbox": {
-      "icon": "lucide-inbox",
+      "icon": "lucide-folder",
       "unsynced": [
-        "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "8-DB": {
       "icon": "lucide-database",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY": {
+      "icon": "lucide-university",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/CS": {
+      "icon": "lucide-laptop",
+      "unsynced": [
+        "e176939e692fd64e",
+        "339a860933040240",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/English": {
+      "icon": "lucide-languages",
+      "unsynced": [
+        "3fb198ccf6a81beb",
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/History": {
+      "icon": "lucide-building-2",
+      "unsynced": [
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math": {
+      "icon": "math-function",
+      "unsynced": [
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/Дифференциальные уравнения": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/Интеграл": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/Интерактивный курс": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "981790bab6f197bb"
+      ]
+    },
+    "9-UNIVERSITY/Math/Комплексные числа": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/Лекции": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/Матрицы": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/Производная": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "b07b47c327f39eac",
+        "a7b4d54e2d7366e0",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/РГР": {
+      "icon": "lucide-book-x",
+      "unsynced": [
+        "339a860933040240",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Math/РГР/Решения": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "339a860933040240",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Physic": {
+      "icon": "lucide-sun-dim",
+      "unsynced": [
+        "339a860933040240",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Physic/Labs": {
+      "icon": "lucide-flask-conical",
+      "unsynced": [
+        "339a860933040240",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Physic/Зачет": {
+      "icon": "lucide-check-circle",
+      "unsynced": [
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Physic/Лекции": {
+      "icon": "lucide-presentation",
+      "unsynced": [
+        "408db92201f0d8f9",
+        "339a860933040240",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
+      ]
+    },
+    "9-UNIVERSITY/Russian": {
+      "icon": "lucide-languages",
+      "unsynced": [
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     },
     "imgs": {
       "icon": "lucide-image",
       "unsynced": [
         "3fb198ccf6a81beb",
-        "740b461244ca328c"
+        "339a860933040240",
+        "e176939e692fd64e",
+        "30db26fcb28f0707",
+        "408db92201f0d8f9",
+        "a7b4d54e2d7366e0",
+        "b07b47c327f39eac",
+        "981790bab6f197bb",
+        "035963c893b9a904"
       ]
     }
   },

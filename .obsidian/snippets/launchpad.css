@@ -214,7 +214,7 @@ a.tag {
 }
 
 .launchpad .block-language-dataviewjs {
-  width: auto;
+  width: 100%;
   height: auto;
   padding: 20px;
   overflow: hidden;
@@ -325,20 +325,46 @@ a.tag {
 
 .launchpad .tag {
   width: auto;
-  padding: auto;
-  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
   border-radius: 15px;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  background-color: var(--background-primary-alt);
-  color: var(--text-normal);
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  background-color: transparent;
   text-transform: uppercase;
   font-size: medium;
   border: none;
+  line-height: 20px;
+  color: var(--font-text);
+  font-weight: bolder;
 }
 
 .launchpad .tag:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.launchpad .internal-link {
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  border-radius: 15px;
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: medium;
+  border: none;
+  line-height: 20px;
+  color: var(--font-text);
+  font-weight: bolder;
+}
+
+.launchpad .internal-link:hover {
   text-decoration: none;
 }
 
@@ -480,4 +506,20 @@ a.tag {
 
 .launchpad h2 {
   text-align: center;
+}
+
+.block-language-col-md {
+  height: auto;
+  width: auto;
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 20px;
+  margin: 0px;
+  padding: 30px;
 }

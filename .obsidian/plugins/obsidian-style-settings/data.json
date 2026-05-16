@@ -1,0 +1,23 @@
+{
+  "iridium@@layout-desktop-only": "i-card-layout",
+  "iridium@@i-dk-s": 0,
+  "iridium@@i-dk-l": 14,
+  "iridium@@i-dk-l-multiplier": 1.25,
+  "iridium@@i-dk-border-l": 5,
+  "iridium@@i-dk-text-l-multiplier": 1.15,
+  "iridium@@i-dk-custom-layout-s": 0,
+  "iridium@@i-dk-layout-border-l": 0,
+  "iridium@@i-dk-layout-l": 0,
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-maroon",
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-peach",
+  "anuppuccin-theme-settings@@anp-autohide-titlebar": true,
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": true,
+  "anuppuccin-theme-settings@@anp-toggle-scrollbars": true,
+  "obsidian-velocity@@theme-paint-dark": "gray",
+  "obsidian-velocity@@color-highlight-rgb": "var(--highlight-blue-rgb)",
+  "obsidian-velocity@@enable-special-text": true,
+  "obsidian-velocity@@enable-special-code": true
+}
