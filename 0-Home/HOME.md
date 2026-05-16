@@ -18,7 +18,7 @@ banner: "![[waterfall_2.png]]"
 ```dataviewjs
 const clockDiv = this.container.createDiv({ cls: "analog-clock-widget" });
 clockDiv.innerHTML = `
-  <div style="position: relative; width: 200px; height: 210px; min-width: auto; min-height: 210px; border-radius: 20px; border: 10px solid var(--background-secondary); background-color: var(--background-secondary); margin: auto;">
+  <div style="position: relative; width: 100%; height: 210px; min-width: auto; min-height: 210px; border-radius: 20px; border: 10px solid var(--background-secondary); background-color: var(--background-secondary); margin: auto;">
     <div id="hour-hand" style="position: absolute; width: 6px; height: 30px; background-color: var(--text-normal); border-radius: 50px; top: 50%; left: 50%; transform-origin: 50% 100%; transform: translateX(-50%) translateY(-100%);"></div>
     <div id="minute-hand" style="position: absolute; width: 4px; height: 60px; background-color:  var(--text-normal); top: 50%; left: 50%; border-radius: 50px; transform-origin: 50% 100%; transform: translateX(-50%) translateY(-100%);"></div>
     <div id="second-hand" style="position: absolute; width: 2px; height: 80px; background-color:  var(--text-error); top: 50%; left: 50%; border-radius: 50px; transform-origin: 50% 100%; transform: translateX(-50%) translateY(100%);"></div>
@@ -149,26 +149,6 @@ main();
 
 `````
 
-<br />
-
-`````col
-```col-md
-#English
-#Physic
-#CS
-#Telecom
-#TOEC
-````
-
-````col-md
-#book
-#DailyNote
-#project
-#Freelance
-#ideas
-````
-
-`````
 
 <div style="height: 5vh"></div>
 

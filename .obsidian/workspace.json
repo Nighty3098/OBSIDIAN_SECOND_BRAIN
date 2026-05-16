@@ -71,8 +71,7 @@
               "title": "DAILY"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5066738128662
+    "width": 314.5066738128662,
+    "collapsed": true
   },
   "right": {
     "id": "c3afcab963e39ab3",
@@ -241,13 +241,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5db92b3d5656b144",
+  "active": "bee05052af06c512",
   "lastOpenFiles": [
-    "README.md.md",
+    "0-Home/TASKS.md",
     "0-Home/HOME.md",
     "0-Home/DAILY.md",
     "0-Home/BOOKS.md",
-    "0-Home/TASKS.md",
     "0-Home/HOME.md~",
     "3-Resources/Dev/С++/SFML/Рендер окна.md",
     "3-Resources/Dev/С++/Флаги компиляции/Флаги компиляции - детекция ошибок.md",
