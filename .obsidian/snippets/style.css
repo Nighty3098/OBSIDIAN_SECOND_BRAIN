@@ -10,10 +10,6 @@ img {
   font-style: italic;
 }
 
-.status-bar {
-  display: none;
-}
-
 .view-header-title-container {
   opacity: 0;
 }

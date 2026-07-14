@@ -10,9 +10,6 @@ content-start: 306
 
 `````col-md
 flexGrow=1
-textAlign=center
-alignItems=center
-alignContent=center
 ===
 
 ```dataview

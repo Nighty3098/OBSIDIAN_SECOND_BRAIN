@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "d40cabf9eeb0b2da",
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "34eaa56dccfdeb21",
         "type": "tabs",
         "children": [
           {
-            "id": "bee05052af06c512",
+            "id": "e8cba9bb178e85df",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -24,14 +24,14 @@
             }
           },
           {
-            "id": "6aa49e772b24d91a",
+            "id": "21aabd24396677e9",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "0-Home/TASKS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -40,14 +40,14 @@
             }
           },
           {
-            "id": "b139e1b28627ed69",
+            "id": "c33a68e9cc49e8cf",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "0-Home/BOOKS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -56,36 +56,61 @@
             }
           },
           {
-            "id": "5db92b3d5656b144",
+            "id": "18e202a79ea0bd06",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "0-Home/DAILY.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "DAILY"
             }
+          },
+          {
+            "id": "d8d16f95729c7667",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Resources/OSINT/Сервисы для OSINTа.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сервисы для OSINTа"
+            }
+          },
+          {
+            "id": "fa71cc29f67092a6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3b63c12c3bb06c80",
+    "id": "36a664bb744a7ad8",
     "type": "split",
     "children": [
       {
-        "id": "4cdeba3478db6085",
+        "id": "6a146a7986390163",
         "type": "tabs",
         "children": [
           {
-            "id": "ed15b78cf26db7db",
+            "id": "e466fdb963d0425e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -98,12 +123,12 @@
             }
           },
           {
-            "id": "b7e81cb5791acd17",
+            "id": "c2ebf0d46edbdd6d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:TheoryOfElectricalCircuits",
+                "query": "tag:FREELANCE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,24 +143,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5066738128662,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "c3afcab963e39ab3",
+    "id": "850432b02cc43112",
     "type": "split",
     "children": [
       {
-        "id": "a36ea1a514a5c682",
+        "id": "89b906a0e8c75a72",
         "type": "tabs",
         "children": [
           {
-            "id": "a0b7bbbe68977914",
+            "id": "09f3ffc87c14ebbf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Education/Math/Trigonometry/Тригонометрические формулы.md",
+                "file": "9-UNIVERSITY/CS/Telecom/IP адрессация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,25 +169,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Тригонометрические формулы"
+              "title": "Backlinks for IP адрессация"
             }
           },
           {
-            "id": "37dcb43a808c036b",
+            "id": "02f14d54ecb770db",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Home/0-HOME.md",
+                "file": "9-UNIVERSITY/CS/Telecom/IP адрессация.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 0-HOME"
+              "title": "Outgoing links from IP адрессация"
             }
           },
           {
-            "id": "274cfda97d8fd7ae",
+            "id": "d8247aa1cd557684",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -178,22 +202,7 @@
             }
           },
           {
-            "id": "e437cf44b2da8716",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "3-Resources/Pentesting/Metasploit/Meterpreter.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Meterpreter"
-            }
-          },
-          {
-            "id": "5007af51f2eff754",
+            "id": "3a04a55c9f23f940",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -207,7 +216,22 @@
             }
           },
           {
-            "id": "8f63f92a5363a4d5",
+            "id": "8249b04d3424fda9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "9-UNIVERSITY/CS/Telecom/IP адрессация.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of IP адрессация"
+            }
+          },
+          {
+            "id": "b85aee5f5ac6b467",
             "type": "leaf",
             "state": {
               "type": "file-properties",
@@ -223,75 +247,60 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "switcher:Open quick switcher": true,
       "templates:Insert template": false,
-      "command-palette:Open command palette": true,
+      "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": true,
-      "workspaces:Manage workspace layouts": true,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "canvas:Create new canvas": false,
+      "zk-prefixer:Create new unique note": false,
       "obsidian-kanban:Create new board": false,
       "iconic:Open rulebook": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bee05052af06c512",
+  "active": "e466fdb963d0425e",
   "lastOpenFiles": [
+    "README.md",
+    "LICENSE",
+    "1-Daily/note.md",
+    "2-Projects/note.md",
+    "3-Resources/note.md",
+    "4-Archive/note.md",
+    "5-Documents/note.md",
+    "6-Freelance/note.md",
+    "7-Inbox/note.md",
+    "9-UNIVERSITY/note.md",
+    "7-Inbox/GHunt Анализ кода.md",
+    "9-UNIVERSITY/Math/Интеграл/Интеграл.md",
+    "6-Freelance/A bot for template responses.md",
+    "5-Documents/Wireshark User's Guide.pdf",
+    "4-Archive/API ERROR.md",
+    "1-Daily/12.05.2025.md",
     "0-Home/TASKS.md",
     "0-Home/HOME.md",
-    "0-Home/DAILY.md",
     "0-Home/BOOKS.md",
+    "3-Resources/Dev/Проверка безопасности.md",
+    "0-Home/DAILY.md",
+    "0-Home/FREELANCE.md",
+    "2-Projects/SkyFall/SkyFall.md",
+    "2-Projects/OWL/Docs/Анализ подписок.md",
+    "9-UNIVERSITY/CS/Telecom/Анализ и проектирование системы защиты периметра на основе межсетевых экранов (NGFW) в сетях оператора связи.md",
+    "9-UNIVERSITY/CS/Telecom/IP адрессация.md",
+    "9-UNIVERSITY/CS/Telecom/Модель OSI.md",
+    "3-Resources/OSINT/Сервисы для OSINTа.md",
+    "imgs/zerotwo.png",
     "0-Home/HOME.md~",
-    "3-Resources/Dev/С++/SFML/Рендер окна.md",
-    "3-Resources/Dev/С++/Флаги компиляции/Флаги компиляции - детекция ошибок.md",
-    "3-Resources/Prompts/Deepseek uncens.md",
-    "3-Resources/Dev/С++/Флаги компиляции",
-    "3-Resources/Dev/С++/Флаги компиляции/Флаги компиляции - оптимизация - скорость работы.md",
-    "9-UNIVERSITY/Math/Интерактивный курс/Собственные значения и собственные векторы/Собственные значения и собственные векторы.md",
-    "9-UNIVERSITY/Math/Интерактивный курс/Собственные значения и собственные векторы/Тест.md",
-    "9-UNIVERSITY/Math/Комплексные числа/Комплексные числа - введение.md",
-    "9-UNIVERSITY/Math/Интерактивный курс/Собственные значения и собственные векторы",
-    "9-UNIVERSITY/Math/Интерактивный курс/Разложение вектора по базису/Тест.md",
-    "9-UNIVERSITY/Math/Интерактивный курс/Разложение вектора по базису/Лекция.md",
-    "9-UNIVERSITY/History/Основные положения теории Данилевского.md",
-    "9-UNIVERSITY/Math/Интерактивный курс/Разложение вектора по базису",
-    "9-UNIVERSITY/Math/Интерактивный курс",
-    "9-UNIVERSITY/History/Доклады",
-    "9-UNIVERSITY/History/Лекции",
-    "9-UNIVERSITY/Math/Лекции 2 семестр 1 курс.md",
-    "9-UNIVERSITY/Math/Лекции/лекция_12 Степенные ряды. Разложение в ряд Тейлораъpptx.pdf",
-    "9-UNIVERSITY/Math/Лекции/лекция_11 Знакочередующиеся ряды. Функциональные и степенные ряды.pdf",
-    "3-Resources/Prompts/Undetect.md",
-    "3-Resources/Dev/DevOps/Scripts/git - gitea - codeberg sync script.md",
-    "3-Resources/Dev/DevOps/Scripts",
-    "1-Daily/03.05.2026.md",
-    "3-Resources/Dev/С++/Бинарные операции/Побитовые операции в C++.md",
-    "3-Resources/Dev/С++/Бинарные операции/Побитовые операции. Примеры кода.md",
-    "3-Resources/Dev/С++/Хэш/Хеш-функции в C++.md",
-    "3-Resources/Dev/С++/Хэш/HashMap.md",
-    "3-Resources/Dev/С++/Бинарное дерево/Двоичное дерево поиска.md",
-    "3-Resources/Dev/С++/parallel processing.md",
-    "3-Resources/Dev/С++/Getting user information via GitAPI.md",
-    "imgs/3.png",
-    "imgs/2.png",
-    "imgs/1.png",
-    "3-Resources/CTF/NSK-CTF-2026/stego/puzzle/src/lab_x.jpg",
-    "3-Resources/CTF/NSK-CTF-2026/stego/Selfie/src/селфи.png",
-    "3-Resources/CTF/NSK-CTF-2026/stego/Selfie/src/sstv-decoded.png",
-    "3-Resources/CTF/NSK-CTF-2026/stego/Selfie/public/селфи.png.jpg.jpeg.svg.bmp",
-    "3-Resources/CTF/NSK-CTF-2026/stego/Carpet/public/Suspicious carpet.png",
-    "3-Resources/CTF/NSK-CTF-2026/stego/Carpet/public/Suspicious carpet.jpg",
-    "3-Resources/CTF/NSK-CTF-2026/reverse/beta-testing/images/store_mem_as_global_var_devtools.png",
-    "2-Projects/Untitled.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Без названия.canvas"
+    "8-DB/Books-Minimal.base",
+    "8-DB/Books.base",
+    "Untitled.canvas"
   ]
 }

@@ -10,3 +10,4 @@ views:
       - date
       - price
       - completed
+    cardSize: 180

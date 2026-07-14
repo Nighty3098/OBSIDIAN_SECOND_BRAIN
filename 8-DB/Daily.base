@@ -1,0 +1,13 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.hasTag("DailyNote")
+        - '!file.inFolder("3-Resources/Templates")'
+    order:
+      - file.name
+    sort:
+      - property: date
+        direction: DESC
+    cardSize: 270

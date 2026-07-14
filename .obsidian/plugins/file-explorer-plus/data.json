@@ -25,6 +25,15 @@
         "pattern": "0-Home/HOME.md",
         "patternType": "STRICT"
       }
+    ],
+    "frontMatter": [
+      {
+        "name": "",
+        "active": true,
+        "path": "",
+        "pattern": "",
+        "patternType": "STRICT"
+      }
     ]
   },
   "hideFilters": {
@@ -44,12 +53,14 @@
         "type": "FILES",
         "pattern": "TOKEN.md",
         "patternType": "STRICT"
-      },
+      }
+    ],
+    "frontMatter": [
       {
         "name": "",
         "active": true,
-        "type": "FILES",
-        "pattern": "README.md",
+        "path": "",
+        "pattern": "",
         "patternType": "STRICT"
       }
     ]

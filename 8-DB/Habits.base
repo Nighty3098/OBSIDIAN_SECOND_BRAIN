@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("1-Daily/HABITS")
+    order:
+      - file.name
+      - Завтрак
+      - Зарядка
+      - Обед
+      - Работа
+      - Сделать ДЗ
+      - Сделать зарядку
+      - Спать
+      - Учеба
+    cardSize: 160

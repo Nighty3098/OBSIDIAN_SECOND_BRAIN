@@ -59,7 +59,7 @@
 }
 
 .workspace-tab-container {
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
 }
 
 .view-header {
@@ -99,15 +99,14 @@
 
 .daily img {
   width: 100%;
-  max-width: 1200px;
   border-radius: 40px;
 }
 
 .tasks .callout {
   display: block;
   margin: auto auto;
-  background-color: var(--background-primary-alt);
-  border-radius: 20px;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
   padding: 30px;
 }
 
@@ -129,8 +128,8 @@
 .tasks .note_2 {
   display: block;
   margin: auto auto;
-  background-color: var(--background-primary-alt);
-  border-radius: 20px;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
   padding: 30px;
 }
 
@@ -152,7 +151,6 @@
 
 .tasks img {
   width: 100%;
-  max-width: 1200px;
 }
 
 a.tag {
@@ -168,7 +166,7 @@ a.tag {
   display: flex;
   padding: 7px 7px 7px 7px;
   margin: -5px 10px -5px 10px;
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   border: none;
   box-shadow: none;
 }
@@ -185,7 +183,7 @@ a.tag {
 .launchpad .callout {
   align-items: center;
   align-content: center;
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   border: none;
   width: 100%;
 }
@@ -216,29 +214,29 @@ a.tag {
 .launchpad .block-language-dataviewjs {
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 0px;
   overflow: hidden;
-  background-color: var(--font-text);
 }
 
 .widget {
   height: 100px;
   width: auto;
-  background-color: var(--background-secondary);
+  background-color: var(--code-background);
   color: var(--text-normal);
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
   gap: 20px;
   margin: 0px;
   padding: 0px;
+  margin-top: 10px;
 }
 
 .callout {
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
   border: none;
 }
 
@@ -248,8 +246,15 @@ a.tag {
   margin: 0px;
 }
 
+.launchpad .block-language-col-md {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .launchpad .columnParent .block-language-col-md .block-language-dataviewjs {
-  padding: 4px;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -262,8 +267,6 @@ a.tag {
   height: auto;
   margin: 0px;
   padding: 0px;
-  gap: 0px;
-  align-items: center;
   align-content: center;
   justify-content: center;
 }
@@ -272,25 +275,21 @@ a.tag {
   gap: 10px;
 }
 
-.launchpad .columnParent .columnChild {
+.launchpad .block-language-col {
   width: 100%;
-  max-width: 400px;
-  min-width: 300px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.launchpad .columnParent .columnChild {
+  width: 50%;
+  min-width: 0;
   height: auto;
-  padding: 0px;
-  margin: 0px;
-}
-
-.launchpad .columnParent img {
-  max-width: 1000px;
-}
-
-.launchpad .internal-embed img {
-  max-width: 1000px;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .launchpad .calendar {
-  max-width: 1000px;
   width: 90%;
 }
 
@@ -317,13 +316,11 @@ a.tag {
   max-height: 100%;
   justify-content: flex-start;
   margin-top: 0px;
-  max-width: 250px;
   min-width: 100px;
 }
 
 .launchpad img {
   width: 100%;
-  max-width: 1200px;
   border-radius: 30px;
 }
 
@@ -332,7 +329,7 @@ a.tag {
   padding: 0px;
   margin: 0px;
   height: 20px;
-  border-radius: 15px;
+  border-radius: var(--bases-cards-radius);
   text-align: left;
   align-items: left;
   align-content: left;
@@ -355,7 +352,7 @@ a.tag {
   padding: 0px;
   margin: 0px;
   height: 20px;
-  border-radius: 15px;
+  border-radius: var(--bases-cards-radius);
   text-align: left;
   align-items: left;
   align-content: left;
@@ -372,8 +369,15 @@ a.tag {
   text-decoration: none;
 }
 
-.launchpad .dataview-container {
-  max-width: 1000px;
+.recent-notes a {
+  text-decoration: none !important;
+  color: var(--text-normal) !important;
+  font-weight: normal !important;
+  font-size: small !important;
+}
+
+.recent-notes li:hover a {
+  color: var(--bg-color) !important;
 }
 
 .launchpad .task-list-item {
@@ -394,12 +398,10 @@ a.tag {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  max-width: 1200px;
 }
 
 .freelance .widget {
   width: 100%;
-  max-width: 700px;
 }
 
 .freelance {
@@ -410,7 +412,6 @@ a.tag {
 .projects img {
   border-radius: 30%;
   border: none;
-  max-width: 200px;
 }
 
 .projects a.tag {
@@ -422,25 +423,25 @@ a.tag {
   align-content: center;
   font-size: small;
   color: var(--text-normal);
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   transition: all 0.5s ease-in-out;
 }
 
 .projects a.tag:hover {
   color: var(--text-error);
-  background-color: var(--background-secondary);
+  background-color: var(--code-background);
 }
 
 .styled-date {
   height: 60px;
   width: auto;
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
 }
 
 .books {
@@ -450,7 +451,6 @@ a.tag {
 .books img {
   height: 100%;
   min-height: 100%;
-  max-width: 1200px;
   border-radius: 30px;
 }
 
@@ -488,12 +488,12 @@ a.tag {
 .books progress {
   height: 15px;
   min-height: 15px;
-  border-radius: 15px;
+  border-radius: var(--bases-cards-radius);
 }
 
 .launchpad .callout {
   font-size: medium;
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
   width: 100%;
   line-height: 1.5rem;
   align-items: center;
@@ -506,8 +506,170 @@ a.tag {
   align-content: center;
   justify-content: center;
   text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.launchpad
+  .markdown-preview-view.is-readable-line-length
+  .markdown-preview-sizer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .launchpad h2 {
   text-align: center;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.nav-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nav-sidebar .nav-item {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px !important;
+}
+
+.nav-item {
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+  padding: 14px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-normal);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+  font-size: small;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-item:hover {
+  background-color: var(--text-accent);
+  color: var(--bg-color);
+  text-decoration: none;
+}
+
+/* === Mini Calendar === */
+.mini-calendar {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  padding: 10px;
+  border: 10px solid var(--base02);
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+}
+
+.cal-day {
+  width: 52px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: var(--bases-cards-radius);
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.cal-day.today {
+  background-color: var(--text-accent);
+  color: var(--bg-color);
+  font-weight: bold;
+}
+
+.cal-day.has-note {
+  background-color: var(--code-background);
+}
+
+.cal-day .cal-label {
+  font-size: 10px;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.cal-day .cal-num {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* === Quote === */
+.quote-widget {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.55;
+  padding: 12px 20px;
+  font-size: small;
+  margin: 0 auto;
+}
+
+/* === Recent Notes === */
+.recent-notes {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.recent-notes ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.recent-notes li {
+  padding: 12px 16px !important;
+  margin-left: 0 !important;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.15s ease;
+}
+
+.recent-notes li:hover {
+  background-color: var(--text-accent);
+  color: var(--bg-color);
+}
+
+.recent-notes .recent-date {
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+/* === Section Headers === */
+.section-header {
+  text-align: center;
+  font-family: "Nova Mono", system-ui;
+  font-size: 1.1em;
+  color: var(--text-accent);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 10px;
+}
+
+/* === Tasks Preview === */
+.tasks-preview {
+  margin: 0 auto;
+}
+
+.tasks-preview .task-list-item {
+  padding: 6px 14px;
+  margin: 4px 0;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+  font-size: small;
 }

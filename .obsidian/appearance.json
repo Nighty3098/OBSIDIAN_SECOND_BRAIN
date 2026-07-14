@@ -1,10 +1,11 @@
 {
-  "cssTheme": "Cupertino",
+  "cssTheme": "Vesper",
   "enabledCssSnippets": [
     "base_header",
     "launchpad",
     "rounded_table",
     "style"
   ],
-  "showRibbon": false
+  "showRibbon": true,
+  "showViewHeader": true
 }

@@ -19,5 +19,13 @@
   "obsidian-velocity@@theme-paint-dark": "gray",
   "obsidian-velocity@@color-highlight-rgb": "var(--highlight-blue-rgb)",
   "obsidian-velocity@@enable-special-text": true,
-  "obsidian-velocity@@enable-special-code": true
+  "obsidian-velocity@@enable-special-code": true,
+  "panorama-settings@@panorama-light-color-scheme": "panorama-lavender",
+  "panorama-settings@@panorama-dark-color-scheme": "panorama-mountains",
+  "panorama-settings@@panorama-bold-folder": true,
+  "panorama-settings@@panorama-accent-highlight": true,
+  "panorama-settings@@panorama-centered-h1": false,
+  "panorama-settings@@panorama-centered-table": true,
+  "panorama-settings@@panorama-latex-background": false,
+  "panorama-settings@@panorama-dynamic-callouts": true
 }

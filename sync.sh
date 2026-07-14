@@ -1,20 +1,28 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
 
 current_date=$(date +"%Y-%m-%d %H:%M:%S")
 device_name=$(hostname)
 
-echo -e "Starting ..."
+echo "Starting..."
 
-cat TOKEN.md
-
-git pull
+git pull --ff-only || { echo "Git pull failed"; }
 
 git add .
-git commit -m "${current_date} PUSH BY ${device_name}"
+commit_msg="${current_date} PUSH BY ${device_name}"
+git commit -m "${commit_msg}" || echo "No changes to commit"
 
-cat TOKEN.md
-git push
+git push origin main || {
+    echo "Git push failed"
+    exit 1
+}
 
-git pull
+git pull --ff-only || {
+    echo "Final git pull failed"
+    exit 1
+}
 
-echo -e "DONE"
+echo "DONE"
