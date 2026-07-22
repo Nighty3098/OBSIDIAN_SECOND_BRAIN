@@ -4,19 +4,19 @@ tags:
   - dev
 link:
 ---
-## `Lesson objectives`
+## `Цели занятия`
 
-- [ ] Goal 1
-- [ ] Goal 2
-- [ ] Goal 3
+- [ ] Цель 1
+- [ ] Цель 2
+- [ ] Цель 3
 
 ---
 
-## `Basic concepts`
+## `Основные понятия`
 
-- **Concept 1**: Description
-- **Concept 2**: Description
-- **Concept 3**: Description
+- **Понятие 1**: Описание
+- **Понятие 2**: Описание
+- **Понятие 3**: Описание
 
 
 ```mermaid
@@ -31,30 +31,30 @@ graph LR
 
 ---
 
-## `Key ideas`
+## `Ключевые идеи`
 
-1. **Idea 1**: Details
-2. **Idea 2**: Details
-3. **Idea 3**: Details
-
-
----
-
-## `Notes`
+1. **Идея 1**: Подробности
+2. **Идея 2**: Подробности
+3. **Идея 3**: Подробности
 
 
 ---
 
-## `Additional materials`
+## `Заметки`
 
-- [Link to source 1](URL)
-- [Link to source 2](URL)
-- [Link to source 3](URL)
 
 ---
 
-## `Reflection`
+## `Дополнительные материалы`
 
-- What have I learned?
-- How can I apply this knowledge?
-- What are the remaining questions?
+- [Ссылка на источник 1](URL)
+- [Ссылка на источник 2](URL)
+- [Ссылка на источник 3](URL)
+
+---
+
+## `Рефлексия`
+
+- Что нового я узнал?
+- Как я могу применить эти знания?
+- Какие вопросы остались?

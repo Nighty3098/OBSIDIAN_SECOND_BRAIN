@@ -3,14 +3,19 @@ tags:
   - Dev
 date:
 ---
-# `Solution methods`
+
+> [!note] Задание
+
+---
+
+# `Методы решения`
 
 
 ---
-# `Decision`
+# `Решение`
 
 
 ---
-# `Conclusions`
+# `Выводы`
 
 

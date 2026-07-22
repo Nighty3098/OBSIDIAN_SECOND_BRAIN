@@ -1,18 +1,19 @@
 ---
 tags:
   - Freelance
-date: 
-deadline: 
+date:
+deadline:
 price: 0
 git: "NULL"
-link: "NULL"
+customer: "NULL"
 completed: false
 ---
-# `DOCUMENTATION`
+# TASKS
+---
+- [ ] Проверка
+- [ ] Оформление заказа
+- [ ] План работы
 
 
-# `TASKS`
-
-- [ ] Check
-- [ ] Making an order
-- [ ] Drawing up a work plan
+# DOCUMENTATION
+---

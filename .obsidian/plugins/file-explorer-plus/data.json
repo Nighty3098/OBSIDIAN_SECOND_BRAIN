@@ -53,12 +53,14 @@
         "type": "FILES",
         "pattern": "TOKEN.md",
         "patternType": "STRICT"
-      },
+      }
+    ],
+    "frontMatter": [
       {
         "name": "",
         "active": true,
-        "type": "FILES",
-        "pattern": "README.md",
+        "path": "",
+        "pattern": "",
         "patternType": "STRICT"
       }
     ],

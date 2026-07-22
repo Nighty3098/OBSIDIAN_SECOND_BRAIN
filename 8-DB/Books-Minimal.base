@@ -1,3 +1,5 @@
+formulas:
+  read_progress: if(progress == "0", 0, if(slice(progress, 0, 2) == "0/", 0, 1))
 views:
   - type: cards
     name: Books
@@ -10,7 +12,11 @@ views:
       - link
       - progress
     sort:
-      - property: progress
+      - property: formula.read_progress
         direction: ASC
+      - property: file.mtime
+        direction: DESC
     cardSize: 250
     imageAspectRatio: 1.45
+    markers: bullet
+    indentProperties: false
