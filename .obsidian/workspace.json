@@ -1,91 +1,133 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "d40cabf9eeb0b2da",
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "34eaa56dccfdeb21",
         "type": "tabs",
         "children": [
           {
-            "id": "bee05052af06c512",
+            "id": "e8cba9bb178e85df",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/0-HOME.md",
+                "file": "0-Home/HOME.md",
                 "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "0-HOME"
+              "title": "HOME"
             }
           },
           {
-            "id": "1b1fe069382328b0",
+            "id": "21aabd24396677e9",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/1-TASKS.md",
+                "file": "0-Home/TASKS.md",
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "1-TASKS"
+              "title": "TASKS"
             }
           },
           {
-            "id": "79a22627a61b1614",
+            "id": "c33a68e9cc49e8cf",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/2-BOOKS.md",
-                "mode": "preview",
+                "file": "0-Home/BOOKS.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2-BOOKS"
+              "title": "BOOKS"
             }
           },
           {
-            "id": "a2af4435a26e5375",
+            "id": "18e202a79ea0bd06",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Home/3-FREELANCE.md",
-                "mode": "preview",
+                "file": "0-Home/DAILY.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "3-FREELANCE"
+              "title": "DAILY"
+            }
+          },
+          {
+            "id": "73b9065702d38965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Projects/SkyFall/SkyFall.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SkyFall"
+            }
+          },
+          {
+            "id": "75d6095de3a63893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6-Freelance/Студия звукозаписи - исправление новостного скрипта.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Студия звукозаписи - исправление новостного скрипта"
+            }
+          },
+          {
+            "id": "49c83cc01cb21e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Resources/Dev/Стандарты написания коммитов.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Стандарты написания коммитов"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3b63c12c3bb06c80",
+    "id": "36a664bb744a7ad8",
     "type": "split",
     "children": [
       {
-        "id": "4cdeba3478db6085",
+        "id": "6a146a7986390163",
         "type": "tabs",
+        "dimension": 64.94762288477035,
         "children": [
           {
-            "id": "ed15b78cf26db7db",
+            "id": "e466fdb963d0425e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -98,12 +140,12 @@
             }
           },
           {
-            "id": "69b529276bcdbe1c",
+            "id": "c2ebf0d46edbdd6d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Russian",
+                "query": "tag:Math",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,63 +155,51 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "81cd973175b1feed",
+        "type": "tabs",
+        "dimension": 35.05237711522965,
+        "children": [
           {
-            "id": "08969c3ab72e1d6c",
+            "id": "8249b04d3424fda9",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "d06bb6fa8ce92c32",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "com.maxymillion.zen",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-ghost",
-              "title": "com.maxymillion.zen"
-            }
-          },
-          {
-            "id": "1145c434bbb84d25",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "com.maxymillion.zen",
-              "state": {},
-              "pinned": true,
-              "icon": "eye",
-              "title": "Zen"
+              "type": "outline",
+              "state": {
+                "file": "0-Home/HOME.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HOME"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
+    "width": 336.5110321044922,
     "collapsed": true
   },
   "right": {
-    "id": "c3afcab963e39ab3",
+    "id": "850432b02cc43112",
     "type": "split",
     "children": [
       {
-        "id": "a36ea1a514a5c682",
+        "id": "89b906a0e8c75a72",
         "type": "tabs",
         "children": [
           {
-            "id": "a0b7bbbe68977914",
+            "id": "09f3ffc87c14ebbf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Education/Math/Trigonometry/Тригонометрические формулы.md",
+                "file": "9-UNIVERSITY/CS/Telecom/IP адрессация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,25 +209,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Тригонометрические формулы"
+              "title": "Backlinks for IP адрессация"
             }
           },
           {
-            "id": "37dcb43a808c036b",
+            "id": "02f14d54ecb770db",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Pentesting/Metasploit/Обход антивирусов в Windows 10 с помощью загрузки Meterpreter прямо из памяти.md",
+                "file": "0-Home/HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Обход антивирусов в Windows 10 с помощью загрузки Meterpreter прямо из памяти"
+              "title": "Outgoing links from HOME"
             }
           },
           {
-            "id": "274cfda97d8fd7ae",
+            "id": "d8247aa1cd557684",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -212,7 +242,7 @@
             }
           },
           {
-            "id": "66749578f6b9290f",
+            "id": "3a04a55c9f23f940",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -226,110 +256,75 @@
             }
           },
           {
-            "id": "fda75bb671173b25",
+            "id": "de6276b0be72d6ac",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "7-Inbox/Ссылки на ноутбуки.md"
+                "file": "0-Home/HOME.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Ссылки на ноутбуки"
-            }
-          },
-          {
-            "id": "e437cf44b2da8716",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "7-Inbox/Ссылки на ноутбуки.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Ссылки на ноутбуки"
+              "title": "File properties for HOME"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "switcher:Open quick switcher": true,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": true,
+      "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": true,
-      "workspaces:Manage workspace layouts": true,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
       "iconic:Open rulebook": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "canvas:Create new canvas": false,
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "bee05052af06c512",
+  "active": "49c83cc01cb21e20",
   "lastOpenFiles": [
-    "7.png",
-    "Pasted image.png",
-    "6.png",
-    "5.png",
-    "4.png",
-    "3.png",
-    "1.png",
-    "2.png",
-    "home.png",
-    "0-Home/2-BOOKS.md",
-    "0-Home/0-HOME.md",
-    "0-Home/3-FREELANCE.md",
+    "0-Home/HOME.md",
+    "0-Home/TASKS.md",
+    "0-Home/BOOKS.md",
+    "6-Freelance/Студия звукозаписи - исправление новостного скрипта.md",
+    "9-UNIVERSITY/Physic/РГР/Решения/Решение - 10.md",
+    "9-UNIVERSITY/CS/C & C++/RGZ/РГЗ 1 семестр/Код.md",
+    "3-Resources/Templates/Habits.md",
+    "7-Inbox/bug report.md",
+    "3-Resources/Dev/Конспект статьи - Как я создал Markdown-редактор с прибылью $1300 мес.md",
+    "4-Archive/Список проблем zmnews.md",
+    "9-UNIVERSITY/Physic/Переменный ток.md",
+    "2-Projects/OWL/The OWL.md",
+    "3-Resources/Dev/Стандарты написания коммитов.md",
+    "3-Resources/Dev/C/Main C Vulnerabilities.md",
+    "6-Freelance/Bot filtering the tg username database.md",
+    "6-Freelance/A bot for template responses.md",
+    "3-Resources/Dev/Python/Modules/Сделать список плоским.md",
+    "1-Daily/HABITS/22.07.2026.md",
+    "0-Home/DAILY.md",
+    "6-Freelance/Untitled.md",
+    "Стандарты коммитов и PR.md",
+    "2-Projects/SkyFall/SkyFall.md",
+    "3-Resources/Templates/Project.md",
     "3-Resources/Templates/Daily note.md",
+    "3-Resources/CTF/NSK-CTF-2026/web/clicker_task/src/chat_files/attachments/attachment_03_backlog.md",
+    "3-Resources/Dev/Reverse.md",
+    "3-Resources/Dev/Reverse",
+    "imgs/zerotwo.png",
+    "0-Home/HOME.md~",
     "8-DB/Books-Minimal.base",
     "8-DB/Books.base",
-    "0-Home/1-TASKS.md",
-    "imgs/411.png",
-    "3-Resources/Templates/Project.md",
-    "1-Daily/02.04.2025.md",
-    "imgs/@mejwh · mejwh.gif",
-    "6-Freelance/Cource work.md",
-    "3-Resources/Templates/Outline.md",
-    "3-Resources/Templates/Freelance.md",
-    "3-Resources/Templates/Book.md",
-    "3-Resources/Templates/Assignment.md",
-    "7-Inbox/Ссылки на ноутбуки.md",
-    "3-Resources/Messages/IPSA piar.md",
-    "3-Resources/Books/35 кило надежды.md",
-    "5-Documents/Wireshark User's Guide.pdf",
-    "6-Freelance/Fix and setup TG bot.md",
-    "3-Resources/Books/Зов Ктулху.md",
-    "{{picture}}.md",
-    "0-Home/1-FINANCES.md",
-    "3-Resources/Books/Четвёртая высота.md",
-    "3-Resources/Books/Человек, который смеётся.md",
-    "3-Resources/Books/Цветы для Элджернона.md",
-    "3-Resources/Books/Хребты безумия.md",
-    "3-Resources/Books/Ужас Данвича.md",
-    "3-Resources/Books/Трое в лодке, не считая собаки.md",
-    "DB/BookReaded.base",
-    "8-DB/Projects.base",
-    "8-DB/Freelance.base",
-    "4-Archive/OLD_CATEGORIES",
-    "5-Documents/Рэй Брэдбери – 451 градус по Фаренгейту.pdf",
-    "DB/Tags.base",
-    "DB/Tasks.base",
-    "2-Projects/Untitled.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Без названия.canvas"
+    "Untitled.canvas"
   ]
 }

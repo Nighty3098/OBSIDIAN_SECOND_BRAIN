@@ -9,6 +9,14 @@
     "deadline": "date",
     "price": "number",
     "completed": "checkbox",
-    "created_at": "date"
+    "created_at": "date",
+    "Сделать зарядку": "checkbox",
+    "Завтрак": "checkbox",
+    "Учеба": "checkbox",
+    "Обед": "checkbox",
+    "Сделать ДЗ": "checkbox",
+    "Работа": "checkbox",
+    "Зарядка": "checkbox",
+    "Спать": "checkbox"
   }
 }

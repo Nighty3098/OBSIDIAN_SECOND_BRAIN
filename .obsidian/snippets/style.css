@@ -10,10 +10,6 @@ img {
   font-style: italic;
 }
 
-.status-bar {
-  display: none;
-}
-
 .view-header-title-container {
   opacity: 0;
 }
@@ -24,4 +20,9 @@ img {
 
 .metadata-add-button .text-button-label {
   display: none;
+}
+
+.cm-lang-col {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

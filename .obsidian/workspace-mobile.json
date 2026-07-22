@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "81057890db0fea1c",
+        "id": "3707e394e84e611f",
         "type": "tabs",
         "children": [
           {
-            "id": "5747f37eeadcdaff",
+            "id": "bcecc89a11531059",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250822082529.png"
+                "file": "0-Home/2-BOOKS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250822082529"
+              "icon": "lucide-file",
+              "title": "2-BOOKS"
             }
           }
         ]
@@ -108,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2-Projects/OWL/Backend/Server DB.md",
+            "file": "0-Home/2-BOOKS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -165,14 +167,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "bases:Create new base": false,
       "iconic:Open rulebook": false,
       "omnisearch:Omnisearch": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "publish:Publish changes...": false,
       "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -183,10 +183,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5747f37eeadcdaff",
+  "active": "bcecc89a11531059",
   "lastOpenFiles": [
-    "3-Resources/Education/Math/Theory/Derivative of a function/Знак производной.md",
     "0-Home/0-HOME.md",
+    "3-Resources/Education/Math/Theory/Derivative of a function/Знак производной.md",
     "3-Resources/Dev/Python/Modules/frozenset.md",
     "3-Resources/Messages/IPSA piar.md",
     "7-Inbox/Формулы для ЕГЭ - Математика.md",

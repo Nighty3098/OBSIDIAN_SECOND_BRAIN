@@ -2,6 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Neonderthaw&family=Warnes&family=WindSong:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nova+Mono&family=Rubik+Glitch&family=Tsukimi+Rounded&display=swap");
 
+@font-face {
+  font-family: "BebasNeue";
+  src: url("BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+
 * {
   border: none;
 }
@@ -20,6 +30,10 @@
 
 .launchpad .inline-title {
   display: none;
+}
+
+.launchpad {
+  font-family: "Roboto", var(--font-text);
 }
 
 .launchpad .metadata-properties-heading {
@@ -59,7 +73,7 @@
 }
 
 .workspace-tab-container {
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
 }
 
 .view-header {
@@ -99,15 +113,14 @@
 
 .daily img {
   width: 100%;
-  max-width: 1200px;
   border-radius: 40px;
 }
 
 .tasks .callout {
   display: block;
   margin: auto auto;
-  background-color: var(--background-primary-alt);
-  border-radius: 20px;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
   padding: 30px;
 }
 
@@ -129,8 +142,8 @@
 .tasks .note_2 {
   display: block;
   margin: auto auto;
-  background-color: var(--background-primary-alt);
-  border-radius: 20px;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
   padding: 30px;
 }
 
@@ -152,7 +165,6 @@
 
 .tasks img {
   width: 100%;
-  max-width: 1200px;
 }
 
 a.tag {
@@ -167,10 +179,15 @@ a.tag {
   font-family: "Formular", var(--font-text);
   display: flex;
   padding: 7px 7px 7px 7px;
-  margin: -5px 10px -5px 10px;
-  background-color: var(--background-primary-alt);
+  margin: 0px 5px 0px 5px;
+  background-color: var(--code-background);
   border: none;
   box-shadow: none;
+}
+
+.external-link {
+  background-image: none;
+  text-decoration: none;
 }
 
 .bases-cards-container {
@@ -185,7 +202,7 @@ a.tag {
 .launchpad .callout {
   align-items: center;
   align-content: center;
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   border: none;
   width: 100%;
 }
@@ -214,43 +231,54 @@ a.tag {
 }
 
 .launchpad .block-language-dataviewjs {
-  width: auto;
+  width: 100%;
   height: auto;
-  padding: 20px;
-  overflow: hidden;
-  background-color: var(--font-text);
+  padding: 0px;
 }
 
 .widget {
-  height: 100px;
   width: auto;
-  background-color: var(--background-secondary);
+  background-color: var(--code-background);
   color: var(--text-normal);
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
-  gap: 20px;
+  border-radius: var(--bases-cards-radius);
+  gap: 8px;
   margin: 0px;
-  padding: 0px;
+  padding: 12px;
 }
 
 .callout {
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
   border: none;
 }
 
 .widget h1 {
+  font-family: "BebasNeue", sans-serif;
   font-size: medium;
   padding: 0px;
   margin: 0px;
+  line-height: 2;
+}
+
+.launchpad .block-language-col-md {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.launchpad .columnParent .columnChild:nth-child(2) .widget {
+  min-height: 100px;
+  max-height: 200px;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .launchpad .columnParent .block-language-col-md .block-language-dataviewjs {
-  padding: 4px;
-  margin: 0px;
+  padding: 0px;
 }
 
 .launchpad .columnParent {
@@ -258,35 +286,31 @@ a.tag {
   height: auto;
   margin: 0px;
   padding: 0px;
-  gap: 0px;
-  align-items: center;
-  align-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
   justify-content: center;
 }
 
 .block-language-col .columnParent {
-  gap: 10px;
+  gap: 8px;
+}
+
+.launchpad .block-language-col {
+  width: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .launchpad .columnParent .columnChild {
-  width: 100%;
-  max-width: 400px;
-  min-width: 300px;
+  flex: 1;
+  min-width: 0;
   height: auto;
-  padding: 0px;
-  margin: 0px;
-}
-
-.launchpad .columnParent img {
-  max-width: 1000px;
-}
-
-.launchpad .internal-embed img {
-  max-width: 1000px;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .launchpad .calendar {
-  max-width: 1000px;
   width: 90%;
 }
 
@@ -313,46 +337,81 @@ a.tag {
   max-height: 100%;
   justify-content: flex-start;
   margin-top: 0px;
-  max-width: 250px;
   min-width: 100px;
 }
 
 .launchpad img {
   width: 100%;
-  max-width: 1200px;
   border-radius: 30px;
 }
 
 .launchpad .tag {
   width: auto;
-  padding: auto;
-  height: 40px;
-  border-radius: 15px;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  background-color: var(--background-primary-alt);
-  color: var(--text-normal);
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  border-radius: var(--bases-cards-radius);
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  background-color: transparent;
   text-transform: uppercase;
   font-size: medium;
   border: none;
+  line-height: 20px;
+  color: var(--font-text);
+  font-weight: bolder;
 }
 
 .launchpad .tag:hover {
   text-decoration: none;
+  background-color: transparent;
 }
 
-.launchpad .dataview-container {
-  max-width: 1000px;
+.launchpad .internal-link {
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  border-radius: var(--bases-cards-radius);
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: medium;
+  border: none;
+  line-height: 20px;
+  color: var(--font-text);
+  font-weight: bolder;
+}
+
+.launchpad .internal-link:hover {
+  text-decoration: none;
+}
+
+.recent-notes a {
+  text-decoration: none !important;
+  color: var(--text-normal) !important;
+  font-weight: normal !important;
+  font-size: small !important;
+}
+
+.recent-notes li:hover a {
+  color: var(--bg-color) !important;
 }
 
 .launchpad .task-list-item {
   border: none;
-  height: 40px;
+  min-height: 40px;
   align-items: center;
   align-content: center;
   justify-content: center;
   text-align: left;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  flex-shrink: 0;
+  padding: 4px 0;
 }
 
 .launchpad .task-list-item:hover {
@@ -364,12 +423,10 @@ a.tag {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  max-width: 1200px;
 }
 
 .freelance .widget {
   width: 100%;
-  max-width: 700px;
 }
 
 .freelance {
@@ -380,7 +437,6 @@ a.tag {
 .projects img {
   border-radius: 30%;
   border: none;
-  max-width: 200px;
 }
 
 .projects a.tag {
@@ -392,25 +448,25 @@ a.tag {
   align-content: center;
   font-size: small;
   color: var(--text-normal);
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   transition: all 0.5s ease-in-out;
 }
 
 .projects a.tag:hover {
   color: var(--text-error);
-  background-color: var(--background-secondary);
+  background-color: var(--code-background);
 }
 
 .styled-date {
   height: 60px;
   width: auto;
-  background-color: var(--background-primary-alt);
+  background-color: var(--code-background);
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
 }
 
 .books {
@@ -420,7 +476,6 @@ a.tag {
 .books img {
   height: 100%;
   min-height: 100%;
-  max-width: 1200px;
   border-radius: 30px;
 }
 
@@ -458,12 +513,12 @@ a.tag {
 .books progress {
   height: 15px;
   min-height: 15px;
-  border-radius: 15px;
+  border-radius: var(--bases-cards-radius);
 }
 
 .launchpad .callout {
   font-size: medium;
-  border-radius: 20px;
+  border-radius: var(--bases-cards-radius);
   width: 100%;
   line-height: 1.5rem;
   align-items: center;
@@ -476,8 +531,180 @@ a.tag {
   align-content: center;
   justify-content: center;
   text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.launchpad
+  .markdown-preview-view.is-readable-line-length
+  .markdown-preview-sizer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .launchpad h2 {
   text-align: center;
 }
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.nav-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-sidebar .nav-item {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px !important;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+  padding: 14px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-normal);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+  font-size: small;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-item:hover {
+  background-color: var(--text-accent);
+  color: var(--bg-color);
+  text-decoration: none;
+}
+
+/* === Mini Calendar === */
+.mini-calendar {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  padding: 10px;
+  border: 10px solid var(--base02);
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+}
+
+.cal-day {
+  width: 52px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: var(--bases-cards-radius);
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.cal-day.today {
+  background-color: var(--text-accent);
+  color: var(--bg-color);
+  font-weight: bold;
+}
+
+.cal-day.has-note {
+  background-color: var(--text-accent);
+  opacity: 0.45;
+  color: var(--bg-color);
+}
+
+.cal-day .cal-label {
+  font-size: 10px;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.cal-day .cal-num {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* === Quote === */
+.quote-widget {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.55;
+  padding: 12px 20px;
+  font-size: small;
+  margin: 0 auto;
+}
+
+/* === Recent Notes === */
+.recent-notes {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.recent-notes ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recent-notes li {
+  padding: 12px 16px !important;
+  margin-left: 0 !important;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  box-sizing: border-box;
+  transition: background-color 0.15s ease;
+}
+
+.recent-notes li:hover {
+  background-color: var(--text-accent);
+  color: var(--bg-color);
+}
+
+.recent-notes .recent-date {
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+/* === Section Headers === */
+.section-header {
+  text-align: center;
+  font-family: "Nova Mono", system-ui;
+  font-size: 1.1em;
+  color: var(--text-accent);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 10px;
+}
+
+/* === Tasks Preview === */
+.tasks-preview {
+  margin: 0 auto;
+}
+
+.tasks-preview .task-list-item {
+  padding: 6px 14px;
+  margin: 4px 0;
+  background-color: var(--code-background);
+  border-radius: var(--bases-cards-radius);
+  font-size: small;
+}
+
+

@@ -1,0 +1,47 @@
+{
+  "language": "auto",
+  "defaultWidth": 50,
+  "defaultWidthUnit": "%",
+  "sliderWidth": 85,
+  "yamlKey": "custom-width",
+  "enableSlider": true,
+  "enableTextInput": true,
+  "enablePerNoteWidth": true,
+  "unitRanges": {
+    "%": {
+      "min": 0,
+      "max": 100
+    },
+    "px": {
+      "min": 100,
+      "max": 4000
+    },
+    "ch": {
+      "min": 10,
+      "max": 200
+    }
+  },
+  "enableCodeBlockWidth": false,
+  "codeBlockWidth": 800,
+  "codeBlockWidthUnit": "px",
+  "codeBlockWidthModes": {
+    "reading": true,
+    "source": true,
+    "livePreview": true
+  },
+  "controlMode": "pills",
+  "pillsPresets": [
+    {
+      "value": 30,
+      "unit": "%"
+    },
+    {
+      "value": 40,
+      "unit": "%"
+    },
+    {
+      "value": 80,
+      "unit": "%"
+    }
+  ]
+}

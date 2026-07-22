@@ -1,6 +1,6 @@
 :root {
     --obsidian-columns-gap: 20px;
-    --obsidian-columns-padding: 15px 20px;
+    --obsidian-columns-padding: 0 20px;
     --obsidian-columns-min-width: 100px;
     --obsidian-columns-def-span: 1;
 }
@@ -38,6 +38,7 @@ div[data-callout="col"].callout > div.callout-content > div[data-callout^="col-m
     flex-grow: var(--obsidian-columns-custom-span);
     flex-basis: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-custom-span));
     width: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-custom-span));
+    margin: 0;
     
     background-color: rgba(0, 0, 0, 0);
     padding: 0 0 0 0;

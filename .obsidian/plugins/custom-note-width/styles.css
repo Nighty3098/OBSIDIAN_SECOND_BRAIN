@@ -1,0 +1,170 @@
+/* Prevent CSS transitions on width-related elements during tab switch */
+.workspace-leaf-content .cm-sizer,
+.workspace-leaf-content .cm-content,
+.workspace-leaf-content .markdown-preview-sizer {
+	transition: max-width 0s !important;
+}
+
+/* Modals */
+#nwm-container {
+	width: 18%;
+}
+
+#nwm-input-container {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+}
+
+#nwm-button-container {
+	text-align: right;
+}
+
+/* UI Elements */
+#custom-note-width-wrapper {
+	display: inline-flex;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	height: 12px;
+}
+
+#custom-note-width-slider {
+	margin: 0px;
+	padding: 0px;
+	margin-right: 5px;
+}
+
+#custom-note-width-slider-value {
+	text-align: center;
+	margin-top: 0px;
+	padding: 0px;
+	min-width: 3ch;
+}
+
+#custom-note-width-unit-selector {
+	background: transparent;
+	border: none;
+	color: var(--text-muted);
+	font-size: 102.5%;
+	padding: 0 2px;
+	margin-left: 2px;
+	cursor: pointer;
+	outline: none;
+	height: auto;
+}
+
+#custom-note-width-unit-selector:hover {
+	color: var(--text-normal);
+}
+
+#custom-note-width-unit-selector option {
+	background-color: var(--background-primary);
+	color: var(--text-normal);
+}
+
+#nwm-unit-selector {
+	background-color: var(--background-modifier-form-field);
+	border: 1px solid var(--background-modifier-border);
+	color: var(--text-normal);
+	border-radius: var(--radius-s);
+	padding: 4px 6px;
+	cursor: pointer;
+	outline: none;
+}
+
+#nwm-unit-selector option {
+	background-color: var(--background-primary);
+	color: var(--text-normal);
+}
+
+#dummy {
+	display: none;
+}
+
+/* Pills control */
+#custom-note-width-pills {
+	display: inline-flex;
+	align-items: stretch;
+	height: 16px;
+	margin-right: 5px;
+	border-radius: var(--radius-s);
+	overflow: hidden;
+	line-height: 1;
+}
+
+.custom-note-width-pill {
+	display: inline-flex;
+	align-items: center;
+	background: transparent;
+	border: 1px solid var(--background-modifier-border);
+	color: var(--text-muted);
+	cursor: pointer;
+	font-size: 11px;
+	line-height: 1;
+	height: 16px;
+	padding: 0 6px;
+	margin: 0;
+	border-radius: 0;
+	box-shadow: none;
+	min-height: 0;
+}
+
+.custom-note-width-pill + .custom-note-width-pill {
+	border-left: none;
+}
+
+.custom-note-width-pill:first-child {
+	border-top-left-radius: var(--radius-s);
+	border-bottom-left-radius: var(--radius-s);
+}
+
+.custom-note-width-pill:last-child {
+	border-top-right-radius: var(--radius-s);
+	border-bottom-right-radius: var(--radius-s);
+}
+
+.custom-note-width-pill:hover {
+	color: var(--text-normal);
+	background: var(--background-modifier-hover);
+	box-shadow: none;
+}
+
+.custom-note-width-pill.is-active {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border-color: var(--interactive-accent);
+}
+
+/* Donation button */
+#custom-note-width-donation-button {
+	margin-top: 5%;
+}
+
+#custom-note-width-donation-button p {
+	text-align: center;
+	font-size: var(--font-smallest);
+	font-style: italic;
+	font-weight: bold;
+	margin-top: -0.5%;
+}
+
+#custom-note-width-donation-button div {
+	display: flex;
+	justify-content: center;
+}
+
+/* Progress bar */
+.progress-bar-outer {
+	background-color: var(--background-modifier-border);
+	width: 100%;
+	height: 30px;
+	border-radius: var(--radius-m);
+}
+
+.progress-bar-inner {
+	background-color: var(--interactive-accent);
+	width: 0%;
+	height: 30px;
+	border-radius: var(--radius-m);
+}
