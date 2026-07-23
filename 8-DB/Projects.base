@@ -7,6 +7,7 @@ views:
         - '!file.inFolder("3-Resources/Templates")'
     order:
       - file.name
-      - created_at
+      - status
+      - deadline
       - link
     cardSize: 300

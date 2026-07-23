@@ -84,8 +84,6 @@ setInterval(() => render(), 20000);
 <div class="nav-sidebar">
   <a class="nav-item" href="obsidian://open?vault=MY_NOTES&file=0-Home/Daily">Daily</a>
   <a class="nav-item" href="obsidian://open?vault=MY_NOTES&file=0-Home/TASKS">Tasks</a>
-  <a class="nav-item" href="obsidian://open?vault=MY_NOTES&file=0-Home/BOOKS">Books</a>
-  <a class="nav-item" href="obsidian://search?vault=MY_NOTES&query=tag%3AFREELANCE">Freelance</a>
   <a class="nav-item" href="obsidian://search?vault=MY_NOTES&query=tag%3Aproject">Projects</a>
   <a class="nav-item" href="obsidian://search?vault=MY_NOTES&query=tag%3AMath">Math</a>
   <a class="nav-item" href="obsidian://search?vault=MY_NOTES&query=tag%3ACS">CS</a>
@@ -307,7 +305,7 @@ function render() {
     .where(p => !p.file.path.startsWith('.space'))
     .where(p => p.file.name !== 'README')
     .sort(p => p.file.mtime, 'desc')
-    .slice(0, 12);
+    .slice(0, 10);
 
   const T = dv.container;
   T.innerHTML = '';

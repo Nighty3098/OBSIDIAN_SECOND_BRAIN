@@ -10,6 +10,5 @@ banner-height: 350
 content-start: 306
 custom-width: 40
 ---
-# BOOKS
-
+![[1326368.png]]
 ![[Books.base]]

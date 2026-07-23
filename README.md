@@ -3,7 +3,11 @@
 # `🔥 My template for obsidian`
 
 <br><br><br>
-<img src="img.png" />
+<img src="1.png" />
+<br><br>
+<img src="2.png" />
+<br><br>
+<img src="3.png" />
 <br><br><br><br>
 <img src="https://img.shields.io/github/commit-activity/t/Nighty3098/OBSIDIAN_SECOND_BRAIN?style=for-the-badge&color=a6e0b8&logoColor=D9E0EE&labelColor=171b22" style="border-radius: 5px;"/>
 <img class="badge" src="https://img.shields.io/github/repo-size/Nighty3098/OBSIDIAN_SECOND_BRAIN?style=for-the-badge&color=ea9de7&logoColor=D9E0EE&labelColor=171b22" style="border-radius: 5px;"/>

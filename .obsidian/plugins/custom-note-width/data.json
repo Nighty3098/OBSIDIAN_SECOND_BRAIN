@@ -32,11 +32,11 @@
   "controlMode": "pills",
   "pillsPresets": [
     {
-      "value": 30,
+      "value": 40,
       "unit": "%"
     },
     {
-      "value": 40,
+      "value": 65,
       "unit": "%"
     },
     {
